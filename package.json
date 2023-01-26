@@ -1,0 +1,14 @@
+{
+	"name": "ntm-slack-reminders",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@slack/web-api": "^6.8.0",
+		"dotenv": "^16.0.3"
+	}
+}
