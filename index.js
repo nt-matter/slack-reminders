@@ -5,6 +5,15 @@ const { sendMessage } = require('./slack.js');
 
 // Check for reminders for today
 exports.handler = async (event, context) => {
+	checkForReminders();
+
+	return {
+		statusCode: 200,
+		body: 'Reminders sent',
+	}
+};
+
+function checkForReminders() {
 	const today = new Date();
 	const channel = '#test-channel';
 	const todayReminders = reminders.filter((reminder) => isTheDateToday(reminder.date));
@@ -20,9 +29,4 @@ exports.handler = async (event, context) => {
 
 		sendMessage({ channel, text: reminderMessage })
 	}
-
-	return {
-		statusCode: 200,
-		body: 'Reminders sent',
-	}
-};
+}
