@@ -6,7 +6,7 @@ function dateFromString(dateString) {
 	return new Date(y, m - 1, d);
 }
 
-exports.isTheDateToday = (dateString) => {
+exports.isToday = (dateString) => {
 	const date = dateFromString(dateString);
 
 	if (!isNaN(date.getTime()))

@@ -10,6 +10,8 @@ exports.sendMessage = async ({ text, channel }) => {
 			channel,
 			text
 		});
+
+		return result;
 	}
 	catch (error) {
 		console.error(error);
