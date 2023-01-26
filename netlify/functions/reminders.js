@@ -1,4 +1,6 @@
-const { checkForReminders } = require(`${process.env.PWD}/index.js`)
+const { checkForReminders } = require('../../index.js')
+
+console.log(process.env);
 
 exports.handler = async (event, context) => {
 	checkForReminders();
