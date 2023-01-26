@@ -1,0 +1,2 @@
+[functions."reminders"]
+schedule = "@hourly"
