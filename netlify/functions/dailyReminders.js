@@ -1,7 +1,7 @@
 const { checkForReminders } = require('../../src/reminders')
 
 exports.handler = async (event, context) => {
-	checkForReminders();
+	checkForReminders()
 
 	return { statusCode: 200 }
-};
+}
