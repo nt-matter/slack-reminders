@@ -1,6 +1,6 @@
 exports.remindersList = [
-	{ type: 'bot', name: 'NTN Bot', date: '27/01/2023' },
-	{ type: 'botday', name: 'NTN Bot', date: '27/01/2023' },
+	// Extras
+	{ type: 'bot', date: '27/01/2023' },
 
 	// Anniversaries
 	{ type: 'birthday', name: 'Ilán', date: '17/06/1988', handler: '@ilan.vivanco' },

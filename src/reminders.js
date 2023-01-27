@@ -1,6 +1,7 @@
-const { remindersList } = require(`../data/remindersList.js`)
-const { getAge, isToday } = require(`./dates.js`)
-const { sendMessage } = require(`./slack.js`)
+const { remindersList } = require(`../data/remindersList`)
+const { handlers } = require(`../data/handlers`)
+const { getAge, isToday } = require(`./dates`)
+const { sendMessage } = require(`./slack`)
 
 // Check for reminders for today
 exports.checkForReminders = async () => {
@@ -9,8 +10,8 @@ exports.checkForReminders = async () => {
 
 	console.log(todaysReminders)
 
-	for (const reminder of todaysReminders) {
-		const age = getAge(reminder.date)
+	for (const { date, name, type } of todaysReminders) {
+		const age = getAge(date)
 		const yearText = age == 1 ? 'año' : 'años'
 		const todayFormatted = today.toLocaleDateString('ES', {
 			month: 'long',
@@ -18,13 +19,14 @@ exports.checkForReminders = async () => {
 		})
 
 		const messages = {
-			bot: `📆 <!everyone>: Siendo *${todayFormatted}* queda oficialmente inaugurado el *NTM Bot* 🤖!! 🔥🎇`,
-			botday: `📆 <!everyone>: Un día como hoy hace ${age} ${yearText} cobraba vida el *NTM Bot* 🤖!! 🍰⌛`,
-
-			birthday: `📆 <!everyone>: Hoy *${todayFormatted}* <${reminder.handler}> cumple ${age} ${yearText}!! 🥳🎉🎂`,
-			ntm: `📆 <!everyone>: Hoy *${todayFormatted}* <${reminder.handler}> cumple ${age} ${yearText} trabajando en *NTM*!! 🥳🎉`,
+			bot: `📆 <!everyone>: Un día como hoy hace ${age} ${yearText} cobraba vida el *NTM Bot* 🤖!! 🍰⌛`,
+			birthday: `📆 <!everyone>: Hoy *${todayFormatted}* <${handlers[name]}> cumple ${age} ${yearText}!! 🥳🎉🎂`,
+			ntm: `📆 <!everyone>: Hoy *${todayFormatted}* <${handlers[name]}> cumple ${age} ${yearText} trabajando en *NTM*!! 🥳🎉`,
 		}
 
-		await sendMessage(messages[reminder.type])
+		// Bail if no age
+		if (age <= 0) return
+
+		await sendMessage(messages[type])
 	}
 }

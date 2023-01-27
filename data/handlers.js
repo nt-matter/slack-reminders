@@ -1,0 +1,16 @@
+exports.handlers = {
+	abril: '@abril.urrutia',
+	federico: '@federico.dueñas',
+	gustavo: '@gustavo.gimenez',
+	ilan: '@ilan.vivanco',
+	javier: '@javier.claria',
+	javierv: '@javier.villalba',
+	jeronimo: '@jeronimo.giumelli',
+	juanpablo: '@jp.guisasola',
+	julian: '@julian.fernandez',
+	leandro: '@leandro.di.vito',
+	luciano: '@luciano.temis',
+	mariela: '@mariela.camerano',
+	roni: '@roni.kripper',
+	tatiana: '@tatiana.livisky',
+}
