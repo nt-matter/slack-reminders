@@ -5,7 +5,6 @@ const { sendMessage } = require(`./slack.js`)
 // Check for reminders for today
 exports.checkForReminders = async () => {
 	const today = new Date()
-	const channel = '#test-channel'
 	const todaysReminders = remindersList.filter((reminder) => isToday(reminder.date))
 
 	for (const reminder of todaysReminders) {
@@ -21,6 +20,6 @@ exports.checkForReminders = async () => {
 			ntm: `📆 <!everyone>: Hoy *${todayFormatted}* <${reminder.handler}> cumple ${age} ${yearText} trabajando en *NTM*!! 🥳🎉`,
 		}
 
-		sendMessage({ channel, text: messages[reminder.type] })
+		await sendMessage(messages[reminder.type])
 	}
 }
