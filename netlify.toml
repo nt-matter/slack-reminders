@@ -1,3 +1,3 @@
 [functions."reminders"]
+schedule = "@hourly"
 # schedule = "0 12 * * *" # Once a day at noon
-schedule = "* * * * *" # Every minute
