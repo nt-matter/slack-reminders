@@ -1,5 +1,5 @@
 
-exports.reminders = [
+exports.remindersList = [
 	// Anniversaries
 	{ type: 'ntm', name: 'Test', date: '27/01/2022', handler: '@ilan.vivanco' },
 	{ type: 'birthday', name: 'Ilán', date: '17/06/1988', handler: '@ilan.vivanco' },

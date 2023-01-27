@@ -1,4 +1,4 @@
-const { reminders } = require(`./data/reminders.js`)
+const { remindersList } = require(`../data/remindersList.js`)
 const { getAge, isToday } = require(`./dates.js`)
 const { sendMessage } = require(`./slack.js`)
 
@@ -7,7 +7,7 @@ const { sendMessage } = require(`./slack.js`)
 exports.checkForReminders = async () => {
 	const today = new Date()
 	const channel = '#test-channel'
-	const todaysReminders = reminders.filter((reminder) => isToday(reminder.date))
+	const todaysReminders = remindersList.filter((reminder) => isToday(reminder.date))
 
 	for (const reminder of todaysReminders) {
 
