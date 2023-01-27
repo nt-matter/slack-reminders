@@ -1,7 +1,10 @@
 require('dotenv').config();
 
 const { WebClient, LogLevel } = require("@slack/web-api");
-const client = new WebClient(process.env.SLACK_TOKEN);
+const client = new WebClient(process.env.SLACK_TOKEN, {
+	logLevel: LogLevel.DEBUG,
+	retryConfig: { retries: 3 }
+});
 
 // Send meesages to a channel on slack
 exports.sendMessage = async ({ text, channel }) => {
@@ -10,8 +13,6 @@ exports.sendMessage = async ({ text, channel }) => {
 			channel,
 			text
 		});
-
-		return result;
 	}
 	catch (error) {
 		console.error(error);
