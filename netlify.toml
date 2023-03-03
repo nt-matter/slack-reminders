@@ -1,2 +1,2 @@
 [functions."dailyReminders"]
-schedule = "0 16 * * *" # Once a day at noon
+schedule = "0 11 * * *" # Once a day at 11AM UTC
