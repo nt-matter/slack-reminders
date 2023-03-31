@@ -1,6 +1,6 @@
 exports.handlers = {
 	abril: '@abril.urrutia',
-	federico: '@federico.dueñas',
+	federico: '@federico.duenas',
 	gustavo: '@gustavo.gimenez',
 	ilan: '@ilan.vivanco',
 	javier: '@javier.claria',
