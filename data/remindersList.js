@@ -3,7 +3,7 @@ exports.remindersList = [
 	{ type: 'bot', date: '27/01/2023' },
 
 	// Birthdays
-	{ type: 'birthday', name: 'abril', date: '26/04/1993' },
+	{ type: 'birthday', name: 'abril', date: '26/04/1994' },
 	{ type: 'birthday', name: 'federico', date: '31/03/1995' },
 	{ type: 'birthday', name: 'gustavo', date: '5/05/1987' },
 	{ type: 'birthday', name: 'ilan', date: '17/06/1988' },
