@@ -12,5 +12,7 @@ exports.handlers = {
 	luciano: '@luciano.temis',
 	mariela: '@mariela.camerano',
 	roni: '@roni.kripper',
+	sabrina: '@sabrina.sirulnicoff',
 	tatiana: '@tatiana.livisky',
+	tomas: '@tomas.sande',
 }
