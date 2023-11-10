@@ -5,7 +5,7 @@ exports.remindersList = [
 	// Birthdays
 	{ type: 'birthday', name: 'abel', date: '21/11/1986' },
 	{ type: 'birthday', name: 'abril', date: '26/04/1994' },
-	{ type: 'birthday', name: 'clara', date: '26/04/1994' },
+	{ type: 'birthday', name: 'clara', date: '03/08/1994' },
 	{ type: 'birthday', name: 'eduardo', date: '09/03/1985' },
 	{ type: 'birthday', name: 'federico', date: '31/03/1995' },
 	{ type: 'birthday', name: 'gustavo', date: '5/05/1987' },
