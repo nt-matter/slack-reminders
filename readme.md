@@ -2,4 +2,4 @@
 
 Custom integration for NTM internal slack reminders
 
-![gatito](https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif)
+![gatito](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)

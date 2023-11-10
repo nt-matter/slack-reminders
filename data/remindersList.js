@@ -3,7 +3,9 @@ exports.remindersList = [
 	{ type: 'bot', date: '27/01/2023' },
 
 	// Birthdays
+	{ type: 'birthday', name: 'abel', date: '21/11/1986' },
 	{ type: 'birthday', name: 'abril', date: '26/04/1994' },
+	{ type: 'birthday', name: 'clara', date: '26/04/1994' },
 	{ type: 'birthday', name: 'eduardo', date: '09/03/1985' },
 	{ type: 'birthday', name: 'federico', date: '31/03/1995' },
 	{ type: 'birthday', name: 'gustavo', date: '5/05/1987' },
@@ -16,11 +18,13 @@ exports.remindersList = [
 	{ type: 'birthday', name: 'luciano', date: '3/03/1987' },
 	{ type: 'birthday', name: 'mariela', date: '23/06/1990' },
 	{ type: 'birthday', name: 'roni', date: '27/03/1980' },
-	{ type: 'birthday', name: 'sabrina', date: '01/07/1981' },
+	{ type: 'birthday', name: 'sebastian', date: '12/06/1990' },
 	{ type: 'birthday', name: 'tatiana', date: '29/01/1990' },
 
 	// NTM Anniversaries
+	{ type: 'ntm', name: 'abel', date: '01/11/2023' },
 	{ type: 'ntm', name: 'abril', date: '26/11/2019' },
+	{ type: 'ntm', name: 'clara', date: '23/10/2023' },
 	{ type: 'ntm', name: 'eduardo', date: '03/07/2023' },
 	{ type: 'ntm', name: 'federico', date: '04/03/2020' },
 	{ type: 'ntm', name: 'gustavo', date: '01/01/2023' },
@@ -33,6 +37,6 @@ exports.remindersList = [
 	{ type: 'ntm', name: 'luciano', date: '01/10/2020' },
 	{ type: 'ntm', name: 'mariela', date: '01/01/2018' },
 	{ type: 'ntm', name: 'roni', date: '01/01/1900' },
-	{ type: 'ntm', name: 'sabrina', date: '01/04/2023' },
+	{ type: 'ntm', name: 'sebastian', date: '01/11/2023' },
 	{ type: 'ntm', name: 'tatiana', date: '03/10/2022' },
 ]
