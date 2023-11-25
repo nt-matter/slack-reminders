@@ -1,5 +1,5 @@
-# Epic Devs Slack Reminders
+# EpicDevs Slack Reminders
 
-Custom integration for Epic Devs internal slack reminders
+Custom integration for EpicDevs internal slack reminders
 
 ![gatito](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
