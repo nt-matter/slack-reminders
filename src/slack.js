@@ -1,7 +1,7 @@
 require('dotenv').config()
 const axios = require('axios')
 
-// Generate Slack webhook from https://ntmatter.slack.com/apps/A0F7XDUAZ-incoming-webhooks?tab=settings
+// Generate Slack webhook from https://epic-devs.slack.com/marketplace/A0F7XDUAZ-incoming-webhooks?tab=settings
 const generalChannel = process.env.SLACK_GENERAL_WEBHOOK_URL
 const testChannel = process.env.SLACK_TEST_WEBHOOK_URL
 
