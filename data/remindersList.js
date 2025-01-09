@@ -17,6 +17,11 @@ exports.remindersList = [
 	{ type: 'birthday', name: 'mariela', date: '23/06/1990' },
 	{ type: 'birthday', name: 'roni', date: '27/03/1980' },
 	{ type: 'birthday', name: 'tatiana', date: '29/01/1990' },
+	{ type: 'birthday', name: 'victoria', date: '13/01/1999' },
+	{ type: 'birthday', name: 'martin', date: '15/04/1991' },
+	{ type: 'birthday', name: 'camila', date: '18/01/1997' },
+	{ type: 'birthday', name: 'virginia', date: '23/06/2000' },
+	{ type: 'birthday', name: 'arianna', date: '26/10/1986' },
 
 	// EpicDevs Anniversaries
 	{ type: 'aniversary', name: 'abril', date: '26/11/2019' },
@@ -31,4 +36,9 @@ exports.remindersList = [
 	{ type: 'aniversary', name: 'luciano', date: '01/10/2020' },
 	{ type: 'aniversary', name: 'mariela', date: '01/01/2018' },
 	{ type: 'aniversary', name: 'tatiana', date: '03/10/2022' },
+	{ type: 'aniversary', name: 'victoria', date: '08/04/2024' },
+	{ type: 'aniversary', name: 'martin', date: '15/04/2024' },
+	{ type: 'aniversary', name: 'camila', date: '01/05/2024' },
+	{ type: 'aniversary', name: 'virginia', date: '13/06/2024' },
+	{ type: 'aniversary', name: 'arianna', date: '17/06/2024' },
 ]

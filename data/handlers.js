@@ -16,4 +16,9 @@ exports.handlers = {
 	roni: '@roni.kripper',
 	sebastian: '@sebastian.ramirez',
 	tatiana: '@tatiana.livisky',
+	victoria: '@victoria.ratier',
+	martin: '@martin.marinello',
+	camila: '@camila.romero',
+	virginia: '@virginia.gandolfo',
+	arianna: '@arianna.monagas',
 }
