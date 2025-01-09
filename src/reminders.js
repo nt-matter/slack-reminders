@@ -20,8 +20,9 @@ exports.checkForReminders = async () => {
 
 		const messages = {
 			bot: `📆 <!everyone>: Un día como hoy hace ${age} ${yearText} cobraba vida el *EpicBot* 🤖!! 🍰⌛`,
+			epicdevs: `📆 <!everyone>: Hoy se cumplen ${age} ${yearText} desde que arrancó este viaje en *EpicDevs*!! 🎉🍰⌛`,
 			birthday: `📆 <!everyone>: Hoy *${todayFormatted}* <${handlers[name]}> cumple ${age} ${yearText}!! 🥳🎉🎂`,
-			ntm: `📆 <!everyone>: Hoy *${todayFormatted}* <${handlers[name]}> cumple ${age} ${yearText} trabajando en *EpicDevs*!! 🥳🎉`,
+			aniversary: `📆 <!everyone>: Hoy *${todayFormatted}* <${handlers[name]}> cumple ${age} ${yearText} trabajando en *EpicDevs*!! 🥳🎉`,
 		}
 
 		// Bail if no age
