@@ -29,7 +29,7 @@ exports.remindersList = [
 	{ type: 'aniversary', name: 'federico', date: '04/03/2020' },
 	{ type: 'aniversary', name: 'gustavo', date: '01/01/2023' },
 	{ type: 'aniversary', name: 'ilan', date: '01/06/2015' },
-	{ type: 'aniversary', name: 'javier', date: '01/02/2012' },
+	{ type: 'aniversary', name: 'javier', date: '09/01/2011' },
 	{ type: 'aniversary', name: 'javierv', date: '01/01/2023' },
 	{ type: 'aniversary', name: 'jeronimo', date: '10/04/2019' },
 	{ type: 'aniversary', name: 'juanpablo', date: '12/07/2021' },
