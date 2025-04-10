@@ -18,7 +18,7 @@ exports.remindersList = [
 	{ type: 'birthday', name: 'roni', date: '27/03/1980' },
 	{ type: 'birthday', name: 'tatiana', date: '29/01/1990' },
 	{ type: 'birthday', name: 'victoria', date: '13/01/1999' },
-	{ type: 'birthday', name: 'martin', date: '15/04/1991' },
+	{ type: 'birthday', name: 'martin', date: '10/04/1991' },
 	{ type: 'birthday', name: 'camila', date: '18/01/1997' },
 	{ type: 'birthday', name: 'virginia', date: '23/06/2000' },
 	{ type: 'birthday', name: 'arianna', date: '26/10/1986' },
