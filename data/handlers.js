@@ -1,7 +1,5 @@
 exports.handlers = {
 	abril: '@abril.urrutia',
-	abel: '@abel.palavecino',
-	clara: '@clara.lopez',
 	eduardo: '@eduardo.valenzuela',
 	federico: '@federico.duenas',
 	gustavo: '@gustavo.gimenez',
@@ -10,15 +8,11 @@ exports.handlers = {
 	javierv: '@javier.villalba',
 	jeronimo: '@jeronimo.giumelli',
 	juanpablo: '@jp.guisasola',
-	leandro: '@leandro.di.vito',
 	luciano: '@luciano.temis',
 	mariela: '@mariela.camerano',
 	roni: '@roni.kripper',
-	sebastian: '@sebastian.ramirez',
 	tatiana: '@tatiana.livisky',
-	victoria: '@victoria.ratier',
 	martin: '@martin.marinello',
 	camila: '@camila.romero',
-	virginia: '@virginia.gandolfo',
 	arianna: '@arianna.monagas',
 }
