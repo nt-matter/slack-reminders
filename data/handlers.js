@@ -11,8 +11,6 @@ exports.handlers = {
 	luciano: '@luciano.temis',
 	mariela: '@mariela.camerano',
 	roni: '@roni.kripper',
-	tatiana: '@tatiana.livisky',
 	martin: '@martin.marinello',
 	camila: '@camila.romero',
-	arianna: '@arianna.monagas',
 }
