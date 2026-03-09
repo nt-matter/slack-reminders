@@ -5,7 +5,6 @@ exports.remindersList = [
 
 	// Birthdays
 	{ type: 'birthday', name: 'abril', date: '26/04/1994' },
-	{ type: 'birthday', name: 'eduardo', date: '09/03/1985' },
 	{ type: 'birthday', name: 'federico', date: '31/03/1995' },
 	{ type: 'birthday', name: 'gustavo', date: '05/05/1987' },
 	{ type: 'birthday', name: 'ilan', date: '17/06/1988' },
@@ -17,11 +16,9 @@ exports.remindersList = [
 	{ type: 'birthday', name: 'mariela', date: '23/06/1990' },
 	{ type: 'birthday', name: 'roni', date: '27/03/1980' },
 	{ type: 'birthday', name: 'martin', date: '10/04/1991' },
-	{ type: 'birthday', name: 'camila', date: '18/01/1997' },
 
 	// EpicDevs Anniversaries
 	{ type: 'aniversary', name: 'abril', date: '26/11/2019' },
-	{ type: 'aniversary', name: 'eduardo', date: '03/07/2023' },
 	{ type: 'aniversary', name: 'federico', date: '04/03/2020' },
 	{ type: 'aniversary', name: 'gustavo', date: '01/01/2023' },
 	{ type: 'aniversary', name: 'ilan', date: '01/06/2015' },
@@ -32,5 +29,4 @@ exports.remindersList = [
 	{ type: 'aniversary', name: 'luciano', date: '01/10/2020' },
 	{ type: 'aniversary', name: 'mariela', date: '01/01/2018' },
 	{ type: 'aniversary', name: 'martin', date: '15/04/2024' },
-	{ type: 'aniversary', name: 'camila', date: '01/05/2024' },
 ]
