@@ -4,7 +4,6 @@ exports.remindersList = [
 	{ type: 'epicdevs', date: '09/01/2011' },
 
 	// Birthdays
-	{ type: 'birthday', name: 'abril', date: '26/04/1994' },
 	{ type: 'birthday', name: 'federico', date: '31/03/1995' },
 	{ type: 'birthday', name: 'gustavo', date: '05/05/1987' },
 	{ type: 'birthday', name: 'ilan', date: '17/06/1988' },
@@ -18,7 +17,6 @@ exports.remindersList = [
 	{ type: 'birthday', name: 'martin', date: '10/04/1991' },
 
 	// EpicDevs Anniversaries
-	{ type: 'aniversary', name: 'abril', date: '26/11/2019' },
 	{ type: 'aniversary', name: 'federico', date: '04/03/2020' },
 	{ type: 'aniversary', name: 'gustavo', date: '01/01/2023' },
 	{ type: 'aniversary', name: 'ilan', date: '01/06/2015' },
